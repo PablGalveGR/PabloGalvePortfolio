@@ -1,0 +1,17 @@
+<article class="box post" *ngFor="let article of articles">
+    <header>
+        <h2><a href={{article.repository}}>Proyect: {{article.title}}</a></h2>
+    </header>
+    <a href={{article.webLink}} class="image featured"><img src={{article.image}} alt="{{article.title}} image" /></a>
+    <h3>Made with {{formatTech(article.technologies)}}</h3>
+    <p>{{article.description}}</p>
+       
+    <div class="features" *ngIf="article.listFeatures.length != 0">
+        <p> Some functionalities are:</p>
+        <ul *ngFor="let feature of article.listFeatures">
+            <li>
+                {{feature}}
+            </li>
+        </ul>
+    </div>
+</article>
