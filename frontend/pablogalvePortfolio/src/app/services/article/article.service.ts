@@ -9,7 +9,7 @@ export class ArticleService {
   
   constructor() { }
   getArticles() : Article[]{
-    const articles_ : Article[] = articles;
+    const articles_ : Article[] = articles.reverse();
     return articles_;
 
   }
