@@ -4,7 +4,7 @@ export const articles: Article[] = [
         id: 0, 
         title: "To do list", 
         image: "assets/img/todolist/01.png", 
-        repository: "https://github.com/PablGalveGR/toDoList", 
+        repository: "https://github.com/PablGalveGR/TodoListAngular", 
         webLink: "https://todolistangular-3e83e.web.app",
         technologies:["NodeJS", "Angular", "JS"], 
         description: "This project contains a web application which allows to create a list of errands.", 
