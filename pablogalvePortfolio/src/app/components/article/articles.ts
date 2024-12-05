@@ -17,6 +17,6 @@ export const articles: Article[] = [
         webLink: "https://heroeslistpablogalve.web.app", 
         technologies:["NodeJS", "Angular", "JS"], 
         description: "", 
-        listFeatures: ["Create, update and delete an errand", "List and filter errands by status"] 
+        listFeatures: ["Page navigation using Angular routing", "Dashboard with the principal heroes", "List of all the heroes", "Detailed view for each hero"] 
     }
 ]
