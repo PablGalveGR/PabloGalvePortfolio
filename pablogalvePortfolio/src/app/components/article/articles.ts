@@ -16,7 +16,16 @@ export const articles: Article[] = [
         repository: "https://github.com/PablGalveGR/TourOfHeroes", 
         webLink: "https://heroeslistpablogalve.web.app", 
         technologies:["NodeJS", "Angular", "JS"], 
-        description: "", 
+        description: "This project contains a web application which allows list heroes and update them", 
         listFeatures: ["Page navigation using Angular routing", "Dashboard with the principal heroes", "List of all the heroes", "Detailed view for each hero"] 
+    },
+    { 
+        id: 2, title: "FoddieLife", 
+        image: "assets/img/foddieLife/01.png", 
+        repository: "https://github.com/PablGalveGR/foodieLifeWeb", 
+        webLink: "https://foddielife.web.app/", 
+        technologies:["NodeJS", "Angular", "JS"], 
+        description: "An application about managing recipes and ingredients", 
+        listFeatures: ["Page navigation using Angular routing", "List view for the ingredients and Recipes", "Detailed view for each recipe and ingredient"] 
     }
 ]
