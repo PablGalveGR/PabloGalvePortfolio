@@ -26,6 +26,6 @@ export const articles: Article[] = [
         webLink: "https://foddielife.web.app/", 
         technologies:["NodeJS", "Angular", "JS"], 
         description: "An application about managing recipes and ingredients", 
-        listFeatures: ["Page navigation using Angular routing", "List view for the ingredients and Recipes", "Detailed view for each recipe and ingredient"] 
+        listFeatures: ["This Web App is on early development!"] 
     }
 ]
